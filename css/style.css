@@ -4,3 +4,7 @@ Primary Color (Dark Greenish Blue): #0B7A75
 Secondary Color (Teal): #CCFAF9
 Accent (Pink): #FFD1E9
 */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}

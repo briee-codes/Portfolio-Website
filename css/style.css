@@ -14,6 +14,7 @@ body {
   color: #000000
 }
 
+/*headers*/
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -30,4 +31,9 @@ h3 {
  h4 {
    font-size: 1.35em;
    font-weight: 400;
+ }
+
+ /*images*/
+ img {
+   width: 100%;
  }

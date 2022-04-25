@@ -3,6 +3,10 @@ Colors used:
 Primary Color (Dark Greenish Blue): #0B7A75
 Secondary Color (Teal): #CCFAF9
 Accent (Pink): #FFD1E9
+
+Hyperlink: #00AFB9
+Hyperlink Hover: #0081A7
+Hyperlink Visited: #445E93
 */
 
 body {
@@ -40,21 +44,21 @@ h3 {
 
  /*hyperlinks*/
  a {
-   color: #0B7A75;
+   color: #00AFB9;
    text-decoration: none; /*no underlining*/
  }
  a:visited { /*visited link*/
-   color: #7209B7;
+   color: #445E93;
  }
  a:hover {
-   color: #CCFAF9;
+   color: #0081A7;
    text-decoration: underline; /*underline when hovering over a link*/
  }
  a:active {
-   color: #CCFAF9;
+   color: #0081A7;
  }
  a:hover,
  a:focus {
-   color: #CCFAF9;
+   color: #0081A7;
    text-decoration: underline;
  }

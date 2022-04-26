@@ -62,3 +62,14 @@ h3 {
    color: #3C67DD;
    text-decoration: underline;
  }
+
+ .button {
+   display: inline-block;
+   background-color: #0B7A75; /*greenish blue*/
+   color: #ffffff;
+   font-weight: 400;
+   padding: 10px;
+   border-radius: : 3px;
+   border-bottom: 2px solid #0B7A75;
+   transition: 0.2s opactiy;
+ }

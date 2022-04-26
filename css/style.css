@@ -66,10 +66,20 @@ h3 {
  .button {
    display: inline-block;
    background-color: #0B7A75; /*greenish blue*/
-   color: #ffffff;
+   color: white;
    font-weight: 400;
    padding: 10px;
    border-radius: : 3px;
    border-bottom: 2px solid #0B7A75;
-   transition: 0.2s opactiy;
+   transition: 0.2s opacity;
+ }
+ .button:hover {
+   opacity: 0.8;
+   text-decoration: none;
+ }
+ .button.contact {
+   background-color: transparent;
+   color: #0B7A75;
+   text-transform: uppercase;
+   border: 2px solid #D53467
  }

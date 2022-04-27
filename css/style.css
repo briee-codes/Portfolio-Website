@@ -41,6 +41,11 @@ h3 {
  img {
    width: 100%;
  }
+ /*custom logo size*/
+ #logo {
+   width: 150px;
+   height: auto;
+ }
 
  /*hyperlinks*/
  a {

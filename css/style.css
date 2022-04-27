@@ -73,20 +73,23 @@ h3 {
    color: #820A30;
  }
 
+ /*buttons*/
  .button {
    display: inline-block;
    background-color: #0B7A75; /*greenish blue*/
-   color: #FFFFFF;
+   color: white;
    font-weight: 400;
    padding: 10px;
-   border-radius: : 3px;
+   border-radius: 3px;
    border-bottom: 2px solid #0B7A75;
    transition: 0.2s opacity;
  }
  .button:hover {
    opacity: 0.8;
+   color: white;
    text-decoration: none;
  }
+ /*contact buttons*/
  .button.contact {
    background-color: transparent;
    color: #0B7A75;
@@ -94,5 +97,6 @@ h3 {
    border: 2px solid #D53467
  }
  .button.contact:hover {
-   background-color: #D53467
+   background-color: #D53467;
+   color: white;
  }

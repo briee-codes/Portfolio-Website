@@ -46,6 +46,11 @@ h3 {
    width: 150px;
    height: auto;
  }
+ /*contact logo size*/
+ #contact {
+   width: 100px;
+   height: auto;
+ }
 
  /*hyperlinks*/
  a {

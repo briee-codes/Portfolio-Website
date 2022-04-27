@@ -37,7 +37,7 @@ h3 {
    font-weight: 400;
  }
 
- /*images*/
+ /*images general*/
  img {
    width: 100%;
  }
@@ -52,6 +52,11 @@ h3 {
    color: #D53467;
    text-decoration: none; /*no underlining*/
  }
+ a:hover,
+ a:focus {
+   color: #3C67DD;
+   text-decoration: underline;
+ }
  a:visited { /*visited link*/
    color: #3C67DD;
  }
@@ -61,11 +66,6 @@ h3 {
  }
  a:active {
    color: #820A30;
- }
- a:hover,
- a:focus {
-   color: #3C67DD;
-   text-decoration: underline;
  }
 
  .button {
